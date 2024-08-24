@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.vk1{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 20%;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+/* .vk1{
+    background: none;
+} */
+
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+li a{
+    padding-left: 50px;
+    text-decoration: none;
+    font-size:20px;
+    }
+ a:hover{
+    background-color: rgb(248, 247, 246);
+    padding: 10px;
+}
+
+header{
+    background-image: url(photo.avif);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vk2{
+    padding-top: 15%;
+    width: 30%;
+    margin-left: 20%;
+}
+.vk2 h1{
+    padding-bottom: 3%;
+    font-size: 100px;
+}
+.vk2 p{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+
+ }
+.vk2 a{
+    text-decoration: none;
+    background-color: rgb(228, 221, 221);
+    padding: 3%;
+    border-radius: 0.5rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+
+}
+main h1{ 
+   font-size: 70px;
+    margin-left: 350px;
+    padding-top: 100px;
+}
+.cards{
+    display: inline-flex;
+    gap:50px;
+    padding-top: 100px;
+    margin-left: 350px;
+}
+.cards .v1{
+    transition: translate 0.3s ease;
+}
+.v1:hover{
+    border: none;
+    background-color: rgb(202, 214, 214);
+    transform: scale(1.05);
+
+}
+.v1{
+    border: 2px solid brown;
+    width:25%;
+    height: 30vh;
+    padding: 20px;
+    padding-left: 20px;
+}
+
+.v1 img{
+   margin: 20px 80px;
+   padding-top: 20px;
+}
+.v1 h2{
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    border: 2px solid;
+    margin-top: 100px;
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(4, 42, 62);
+    color: white;
+}
+.v2{
+    padding: 130px;
+}
+.v3{
+    margin-left: 35%;
+    z-index: 50px;
+}
+footer .line{
+    width: 100px;
+    height: 4px;
+    border: 10px;
+    background: white;
+    margin-right: auto;
+}
+.v2 h2{
+    transition:  .4s;
+}
+.v2 h2:hover{
+   transform: translateX(10px);
+}
+@media screen and (min-width:576px){
+    .vk{
+        flex-direction: column;
+    }
+    
+}
+
+
